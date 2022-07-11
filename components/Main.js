@@ -1,12 +1,12 @@
-import styles from '../styles/Home.module.css'
-import {Link} from "../components/Link";
-import {Headline} from "../components/Headline";
+import classes from './Main.module.css'
+import {Link} from "./Link";
+import {Headline} from "./Headline";
 
 export function Main(props) {
   return (
-    <main className={styles.main}>
+    <main className={classes.main}>
       <Headline page={props.page}>
-        <code className={styles.code}>pages/{props.page}.js</code>
+        <code className={classes.code}>pages/{props.page}.js</code>
       </Headline>
       <Link/>
 

@@ -1,6 +1,6 @@
 import styles from '../styles/Home.module.css'
 
-export function Links() {
+export function Link() {
   return (
     <div className={styles.grid}>
       <a href="https://nextjs.org/docs" className={styles.card}>
